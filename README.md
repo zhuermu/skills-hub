@@ -1,26 +1,32 @@
 # Skills Hub
 
-个人 AI Skills 仓库，收集和管理可复用的 AI agent skills。
+A curated collection of reusable AI agent skills for [Kiro](https://kiro.dev) and [Claude Code](https://docs.anthropic.com/en/docs/claude-code).
 
-## Skills
+## Available Skills
 
-| Skill | 说明 |
-|-------|------|
-| [wechat-article](./wechat-article/) | 生成微信公众号兼容的 HTML 文章 |
-| [aws-style-presentation](./aws-style-presentation/) | 生成 AWS 风格的 HTML 幻灯片演示 |
+| Skill | Description |
+|-------|-------------|
+| [wechat-article](./wechat-article/) | Generate WeChat Official Account (微信公众号) compatible HTML articles with inline styles |
+| [aws-style-presentation](./aws-style-presentation/) | Generate AWS-style HTML slide presentations with purple/pink gradient theme |
 
-## 使用方式
+## Usage
 
-将需要的 skill 目录复制到你的项目中：
+Copy the skill directory into your project:
 
 ```bash
-# Kiro
+# For Kiro
 cp -r <skill-name>/ your-project/.kiro/skills/<skill-name>/
 
-# Claude Code
+# For Claude Code
 cp -r <skill-name>/ your-project/.claude/skills/<skill-name>/
 ```
 
-## 贡献新 Skill
+Or clone this repo as a subdirectory in your workspace and symlink as needed.
 
-每个 skill 一个目录，至少包含 `SKILL.md`。
+## Contributing
+
+Each skill lives in its own directory with at least a `SKILL.md` file. PRs welcome.
+
+## License
+
+MIT
