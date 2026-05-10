@@ -144,7 +144,7 @@ Border:         #e5e5e5
 ### Footer
 ```html
 <section style="margin-top:30px;padding:20px 25px;background:#f7f7f7;border-radius:8px;text-align:center;line-height:1.9;">
-  <p style="font-size:15px;color:#333;margin:0 0 8px;">如果这篇文章对你有帮助，欢迎<strong style="color:#07c160;">点赞、在看、转发</strong>三连。</p>
+  <p style="font-size:15px;color:#333;margin:0 0 8px;">如果这篇文章对你有帮助，欢迎<strong style="color:#07c160;">点赞、爱心、转发</strong>三连。</p>
   <p style="font-size:14px;color:#666;margin:0;">关注我，持续分享 AI 时代的技术实战与深度思考。</p>
 </section>
 ```
